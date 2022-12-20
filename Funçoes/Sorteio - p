@@ -1,0 +1,27 @@
+programa {
+  
+  inclua biblioteca Util --> u 
+  inteiro nomeMatriz[10][10]
+    
+    
+    
+    
+    
+    funcao preencherMatriz(){
+      para (inteiro i = 0; i < 10; i++){
+        para (inteiro j = 0; j < 10; j++){
+          nomeMatriz[i][j] = u.sorteia(0, 9)
+          escreva (nomeMatriz[i][j], " ")
+        }
+        escreva ("\n ") 
+      }
+  
+  
+  
+  
+  funcao inicio() {
+    preencherMatriz()
+    
+    
+  }
+}
